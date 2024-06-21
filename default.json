@@ -18,6 +18,10 @@
       "groupName": "pre-commit hooks"
     },
     {
+      "matchManagers": ["dockerfile"],
+      "groupName": "Dockerfile"
+    },
+    {
       "matchManagers": ["pre-commit"],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
@@ -26,7 +30,8 @@
     {
       "matchManagers": ["dockerfile"],
       "matchUpdateTypes": ["patch"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["poetry"],
