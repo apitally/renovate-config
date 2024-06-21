@@ -20,7 +20,8 @@
     {
       "matchManagers": ["pre-commit"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "matchManagers": ["dockerfile"],
