@@ -7,7 +7,7 @@
     "enabled": true,
     "automerge": true,
     "automergeType": "branch",
-    "schedule": ["before 6am on saturday"]
+    "schedule": ["after 4am, before 8am on saturday"]
   },
   "major": {
     "dependencyDashboardApproval": true
