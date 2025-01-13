@@ -34,7 +34,7 @@
       "automergeType": "branch"
     },
     {
-      "matchManagers": ["poetry"],
+      "matchManagers": ["pep621"],
       "matchDepTypes": ["dev", "ipython", "test", "types"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Python dev dependencies",
