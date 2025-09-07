@@ -14,24 +14,27 @@
   },
   "packageRules": [
     {
+      "matchDepNames": ["uv", "astral-sh/uv", "astral-sh/uv-pre-commit", "ghcr.io/astral-sh/uv"],
+      "groupName": "uv",
+      "automerge": true
+    },
+    {
       "matchManagers": ["pre-commit"],
       "groupName": "pre-commit hooks"
+    },
+    {
+      "matchManagers": ["pre-commit"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
     },
     {
       "matchManagers": ["dockerfile"],
       "groupName": "Dockerfile"
     },
     {
-      "matchManagers": ["pre-commit"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "branch"
-    },
-    {
       "matchManagers": ["dockerfile"],
       "matchUpdateTypes": ["patch"],
-      "automerge": true,
-      "automergeType": "branch"
+      "automerge": true
     },
     {
       "matchManagers": ["pep621"],
