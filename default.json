@@ -3,7 +3,7 @@
   "extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":enablePreCommit"],
   "timezone": "Australia/Brisbane",
   "schedule": ["after 8am on saturday"],
-  "minimumReleaseAge": "14 days",
+  "minimumReleaseAge": "7 days",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
