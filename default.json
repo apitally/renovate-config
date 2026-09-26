@@ -38,7 +38,7 @@
     },
     {
       "matchManagers": ["pep621"],
-      "matchDepTypes": ["dev", "ipython", "test", "types"],
+      "matchDepTypes": ["dependency-groups"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Python dev dependencies",
       "automerge": true
