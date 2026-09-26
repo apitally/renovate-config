@@ -37,6 +37,13 @@
       "automerge": true
     },
     {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions",
+      "separateMajorMinor": false,
+      "dependencyDashboardApproval": false,
+      "automerge": false
+    },
+    {
       "matchManagers": ["pep621"],
       "matchDepTypes": ["dependency-groups"],
       "matchUpdateTypes": ["minor", "patch"],
