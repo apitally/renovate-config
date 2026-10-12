@@ -15,11 +15,6 @@
   },
   "packageRules": [
     {
-      "matchDepNames": ["uv", "astral-sh/uv", "astral-sh/uv-pre-commit", "ghcr.io/astral-sh/uv"],
-      "groupName": "uv",
-      "automerge": true
-    },
-    {
       "matchManagers": ["pre-commit"],
       "groupName": "pre-commit hooks"
     },
@@ -56,6 +51,11 @@
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "JavaScript dev dependencies",
+      "automerge": true
+    },
+    {
+      "matchDepNames": ["uv", "astral-sh/uv", "astral-sh/uv-pre-commit", "ghcr.io/astral-sh/uv"],
+      "groupName": "uv",
       "automerge": true
     }
   ]
