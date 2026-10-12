@@ -4,6 +4,7 @@
   "timezone": "Australia/Brisbane",
   "schedule": ["after 8am on saturday"],
   "minimumReleaseAge": "7 days",
+  "osvVulnerabilityAlerts": true,
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
